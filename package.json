@@ -1,0 +1,61 @@
+{
+  "name": "adonis-fullstack-app",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "description": "The fullstack application boilerplate for Adonisjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node ace test",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-app"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^5.0.1",
+    "@adonisjs/auth": "^3.0.4",
+    "@adonisjs/bodyparser": "^2.0.2",
+    "@adonisjs/cors": "^1.0.5",
+    "@adonisjs/fold": "^4.0.7",
+    "@adonisjs/framework": "^5.0.5",
+    "@adonisjs/ignitor": "^2.0.6",
+    "@adonisjs/lucid": "^5.0.3",
+    "@adonisjs/mail": "^3.0.6",
+    "@adonisjs/session": "^1.0.23",
+    "@adonisjs/shield": "^1.0.6",
+    "@adonisjs/validator": "^5.0.3",
+    "@vtex/react-csv-parse": "^3.0.2",
+    "adonis-mongoose-model": "^3.0.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "mysql": "^2.15.0",
+    "namor": "^1.0.1",
+    "random-string": "^0.2.0",
+    "react-file-input": "^0.2.5",
+    "react-file-reader": "^1.1.4",
+    "react-redux": "^5.0.7",
+    "react-table": "^6.8.6",
+    "reactstrap": "^6.1.0",
+    "redux": "^4.0.0",
+    "xlsx": "^0.13.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "laravel-mix": "^2.1.11",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "autoload": {
+    "App": "./app"
+  }
+}
